@@ -21,7 +21,7 @@ EN-1
 Text GLabel 1400 1400 0    47   Input ~ 0
 D8
 $Comp
-L ok1hra:TCM2130-LA U5
+L MM-control-rescue:TCM2130-LA-ok1hra U5
 U 1 1 5A98CBA2
 P 2100 2500
 F 0 "U5" H 2100 4031 79  0000 C CNN
@@ -79,7 +79,7 @@ F 3 "" H 1050 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R26
+L MM-control-rescue:R-device R26
 U 1 1 5A97DAC8
 P 1050 2800
 F 0 "R26" H 1120 2846 50  0000 L CNN
@@ -136,7 +136,7 @@ F 3 "" H 3100 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C12
+L MM-control-rescue:C_Small-device C12
 U 1 1 5A97CEC9
 P 2900 1500
 F 0 "C12" V 2850 1600 50  0000 C CNN
@@ -158,7 +158,7 @@ Wire Wire Line
 	2800 1300 3100 1300
 Connection ~ 3100 1300
 $Comp
-L device:C_Small C13
+L MM-control-rescue:C_Small-device C13
 U 1 1 5A97D276
 P 2900 1800
 F 0 "C13" V 2850 1900 50  0000 C CNN
@@ -176,7 +176,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 1800 3000 1800
 $Comp
-L device:C_Small C24
+L MM-control-rescue:C_Small-device C24
 U 1 1 5A97D368
 P 3300 1550
 F 0 "C24" V 3250 1650 50  0000 C CNN
@@ -188,7 +188,7 @@ F 4 "50V/X7R/10%" V 3400 1650 20  0000 C CNN "Req"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C26
+L MM-control-rescue:C_Small-device C26
 U 1 1 5A97D624
 P 3500 1550
 F 0 "C26" V 3450 1650 50  0000 C CNN
@@ -200,7 +200,7 @@ F 4 "50V/X7R/10%" V 3600 1650 20  0000 C CNN "Req"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP_Small C30
+L MM-control-rescue:CP_Small-device C30
 U 1 1 5A97D6C4
 P 3700 1550
 F 0 "C30" V 3650 1650 50  0000 L CNN
@@ -266,7 +266,7 @@ F 3 "" H 7550 5200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L16
+L MM-control-rescue:L_Core_Ferrite_Small-device L16
 U 1 1 5A97DFC9
 P 7800 5250
 F 0 "L16" V 7850 5100 50  0000 C CNN
@@ -277,7 +277,7 @@ F 3 " BLM18KG121TN1D" H 7800 5250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:CP_Small C43
+L MM-control-rescue:CP_Small-device C43
 U 1 1 5A97E16D
 P 8000 5500
 F 0 "C43" V 7950 5600 50  0000 L CNN
@@ -289,7 +289,7 @@ F 4 "6,3V/X5R/20%" V 8100 5600 20  0000 C CNN "Req"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C42
+L MM-control-rescue:C_Small-device C42
 U 1 1 5A97E203
 P 7550 5500
 F 0 "C42" V 7500 5600 50  0000 C CNN
@@ -345,7 +345,7 @@ Wire Wire Line
 	2800 2100 2900 2100
 Connection ~ 2900 2100
 $Comp
-L device:C_Small C17
+L MM-control-rescue:C_Small-device C17
 U 1 1 5A97EB29
 P 3150 2250
 F 0 "C17" V 3100 2350 50  0000 C CNN
@@ -357,7 +357,7 @@ F 4 "50V/X7R/10%" V 3050 2300 20  0000 C CNN "Req"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C16
+L MM-control-rescue:C_Small-device C16
 U 1 1 5A97EBEE
 P 3150 2100
 F 0 "C16" V 3100 2200 50  0000 C CNN
@@ -369,7 +369,7 @@ F 4 "50V/X7R/10%" V 3250 2200 20  0000 C CNN "Req"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C28
+L MM-control-rescue:C_Small-device C28
 U 1 1 5A97EC84
 P 3550 2150
 F 0 "C28" V 3500 2250 50  0000 C CNN
@@ -418,7 +418,7 @@ Wire Wire Line
 	3550 2050 3550 1950
 Connection ~ 3550 1950
 $Comp
-L device:R R32
+L MM-control-rescue:R-device R32
 U 1 1 5A97F662
 P 3750 2200
 F 0 "R32" H 3820 2246 50  0000 L CNN
@@ -438,7 +438,7 @@ Wire Wire Line
 	3750 2050 3750 1950
 Connection ~ 3750 1950
 $Comp
-L device:C_Small C32
+L MM-control-rescue:C_Small-device C32
 U 1 1 5A97F9C2
 P 3900 2400
 F 0 "C32" V 3850 2500 50  0000 C CNN
@@ -463,7 +463,7 @@ $EndComp
 Wire Wire Line
 	4050 2400 4000 2400
 $Comp
-L device:C_Small C20
+L MM-control-rescue:C_Small-device C20
 U 1 1 5A97FDE5
 P 3250 2700
 F 0 "C20" V 3200 2800 50  0000 C CNN
@@ -475,7 +475,7 @@ F 4 "50V/X7R/10%" V 3300 2550 20  0000 C CNN "Req"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R28
+L MM-control-rescue:R-device R28
 U 1 1 5A97FF3D
 P 3250 2850
 F 0 "R28" V 3150 2950 50  0000 C CNN
@@ -518,7 +518,7 @@ Wire Wire Line
 	3000 2700 3000 2850
 Connection ~ 3000 2850
 $Comp
-L device:C_Small C21
+L MM-control-rescue:C_Small-device C21
 U 1 1 5A980E8B
 P 3250 3100
 F 0 "C21" V 3200 3200 50  0000 C CNN
@@ -530,7 +530,7 @@ F 4 "50V/X7R/10%" V 3300 2950 20  0000 C CNN "Req"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R29
+L MM-control-rescue:R-device R29
 U 1 1 5A980E91
 P 3250 3250
 F 0 "R29" V 3150 3350 50  0000 C CNN
@@ -592,7 +592,7 @@ Wire Wire Line
 	2800 3600 2900 3600
 Connection ~ 2900 3600
 $Comp
-L device:C_Small C34
+L MM-control-rescue:C_Small-device C34
 U 1 1 5A981A6D
 P 4050 2650
 F 0 "C34" V 4000 2750 50  0000 C CNN
@@ -604,7 +604,7 @@ F 4 "50V/X7R/10%" V 4150 2700 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C35
+L MM-control-rescue:C_Small-device C35
 U 1 1 5A981C2C
 P 4050 2850
 F 0 "C35" V 4000 2950 50  0000 C CNN
@@ -616,7 +616,7 @@ F 4 "50V/X7R/10%" V 4150 2900 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L8
+L MM-control-rescue:L_Core_Ferrite_Small-device L8
 U 1 1 5A981D36
 P 4450 2550
 F 0 "L8" V 4500 2400 50  0000 C CNN
@@ -627,7 +627,7 @@ F 3 " BLM18KG121TN1D" H 4450 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L9
+L MM-control-rescue:L_Core_Ferrite_Small-device L9
 U 1 1 5A981E56
 P 4450 2950
 F 0 "L9" V 4500 2800 50  0000 C CNN
@@ -664,7 +664,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 2950 4350 2950
 $Comp
-L conn:CONN_01X04 P8
+L MM-control-rescue:CONN_01X04-conn P8
 U 1 1 5A98258E
 P 4900 3000
 F 0 "P8" H 4978 3041 50  0000 L CNN
@@ -676,7 +676,7 @@ F 3 "" H 4900 3000 50  0000 C CNN
 $EndComp
 Connection ~ 3900 2850
 $Comp
-L device:C_Small C36
+L MM-control-rescue:C_Small-device C36
 U 1 1 5A9832FB
 P 4050 3100
 F 0 "C36" V 4000 3200 50  0000 C CNN
@@ -688,7 +688,7 @@ F 4 "50V/X7R/10%" V 4150 3150 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C37
+L MM-control-rescue:C_Small-device C37
 U 1 1 5A983301
 P 4050 3300
 F 0 "C37" V 4000 3400 50  0000 C CNN
@@ -700,7 +700,7 @@ F 4 "50V/X7R/10%" V 4200 3350 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L10
+L MM-control-rescue:L_Core_Ferrite_Small-device L10
 U 1 1 5A983307
 P 4450 3000
 F 0 "L10" V 4500 2850 50  0000 C CNN
@@ -711,7 +711,7 @@ F 3 " BLM18KG121TN1D" H 4450 3000 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L11
+L MM-control-rescue:L_Core_Ferrite_Small-device L11
 U 1 1 5A98330D
 P 4450 3400
 F 0 "L11" V 4500 3250 50  0000 C CNN
@@ -799,7 +799,7 @@ D4
 Text GLabel 1400 5050 0    47   Input ~ 0
 DIR-2
 $Comp
-L ok1hra:TCM2130-LA U6
+L MM-control-rescue:TCM2130-LA-ok1hra U6
 U 1 1 5A985B72
 P 2100 6050
 F 0 "U6" H 2100 7581 79  0000 C CNN
@@ -855,7 +855,7 @@ F 3 "" H 1050 6200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R27
+L MM-control-rescue:R-device R27
 U 1 1 5A985B94
 P 1050 6350
 F 0 "R27" H 1120 6396 50  0000 L CNN
@@ -912,7 +912,7 @@ F 3 "" H 3100 4750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C14
+L MM-control-rescue:C_Small-device C14
 U 1 1 5A985BBA
 P 2900 5050
 F 0 "C14" V 2850 5150 50  0000 C CNN
@@ -934,7 +934,7 @@ Wire Wire Line
 	2800 4850 3100 4850
 Connection ~ 3100 4850
 $Comp
-L device:C_Small C15
+L MM-control-rescue:C_Small-device C15
 U 1 1 5A985BCB
 P 2900 5350
 F 0 "C15" V 2850 5450 50  0000 C CNN
@@ -952,7 +952,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 5350 3000 5350
 $Comp
-L device:C_Small C25
+L MM-control-rescue:C_Small-device C25
 U 1 1 5A985BD4
 P 3300 5100
 F 0 "C25" V 3250 5200 50  0000 C CNN
@@ -964,7 +964,7 @@ F 4 "50V/X7R/10%" V 3400 5200 20  0000 C CNN "Req"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C27
+L MM-control-rescue:C_Small-device C27
 U 1 1 5A985BDA
 P 3500 5100
 F 0 "C27" V 3450 5200 50  0000 C CNN
@@ -976,7 +976,7 @@ F 4 "50V/X7R/10%" V 3600 5200 20  0000 C CNN "Req"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP_Small C31
+L MM-control-rescue:CP_Small-device C31
 U 1 1 5A985BE0
 P 3700 5100
 F 0 "C31" V 3650 5200 50  0000 L CNN
@@ -1041,7 +1041,7 @@ Wire Wire Line
 	2800 5650 2900 5650
 Connection ~ 2900 5650
 $Comp
-L device:C_Small C19
+L MM-control-rescue:C_Small-device C19
 U 1 1 5A985C0A
 P 3150 5800
 F 0 "C19" V 3100 5900 50  0000 C CNN
@@ -1053,7 +1053,7 @@ F 4 "50V/X7R/10%" V 3050 5900 20  0000 C CNN "Req"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C18
+L MM-control-rescue:C_Small-device C18
 U 1 1 5A985C10
 P 3150 5650
 F 0 "C18" V 3100 5750 50  0000 C CNN
@@ -1065,7 +1065,7 @@ F 4 "50V/X7R/10%" V 3250 5750 20  0000 C CNN "Req"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C29
+L MM-control-rescue:C_Small-device C29
 U 1 1 5A985C16
 P 3550 5700
 F 0 "C29" V 3500 5800 50  0000 C CNN
@@ -1114,7 +1114,7 @@ Wire Wire Line
 	3550 5600 3550 5500
 Connection ~ 3550 5500
 $Comp
-L device:R R33
+L MM-control-rescue:R-device R33
 U 1 1 5A985C31
 P 3750 5750
 F 0 "R33" H 3820 5796 50  0000 L CNN
@@ -1134,7 +1134,7 @@ Wire Wire Line
 	3750 5600 3750 5500
 Connection ~ 3750 5500
 $Comp
-L device:C_Small C33
+L MM-control-rescue:C_Small-device C33
 U 1 1 5A985C3D
 P 3900 5950
 F 0 "C33" V 3850 6050 50  0000 C CNN
@@ -1159,7 +1159,7 @@ $EndComp
 Wire Wire Line
 	4050 5950 4000 5950
 $Comp
-L device:C_Small C22
+L MM-control-rescue:C_Small-device C22
 U 1 1 5A985C4A
 P 3250 6250
 F 0 "C22" V 3200 6350 50  0000 C CNN
@@ -1171,7 +1171,7 @@ F 4 "50V/X7R/10%" V 3300 6100 20  0000 C CNN "Req"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R30
+L MM-control-rescue:R-device R30
 U 1 1 5A985C50
 P 3250 6400
 F 0 "R30" V 3150 6500 50  0000 C CNN
@@ -1214,7 +1214,7 @@ Wire Wire Line
 	3000 6250 3000 6400
 Connection ~ 3000 6400
 $Comp
-L device:C_Small C23
+L MM-control-rescue:C_Small-device C23
 U 1 1 5A985C6A
 P 3250 6650
 F 0 "C23" V 3200 6750 50  0000 C CNN
@@ -1226,7 +1226,7 @@ F 4 "50V/X7R/10%" V 3300 6500 20  0000 C CNN "Req"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R31
+L MM-control-rescue:R-device R31
 U 1 1 5A985C70
 P 3250 6800
 F 0 "R31" V 3150 6900 50  0000 C CNN
@@ -1288,7 +1288,7 @@ Wire Wire Line
 	2800 7150 2900 7150
 Connection ~ 2900 7150
 $Comp
-L device:C_Small C38
+L MM-control-rescue:C_Small-device C38
 U 1 1 5A985C95
 P 4050 6200
 F 0 "C38" V 4000 6300 50  0000 C CNN
@@ -1300,7 +1300,7 @@ F 4 "50V/X7R/10%" V 4150 6300 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C39
+L MM-control-rescue:C_Small-device C39
 U 1 1 5A985C9B
 P 4050 6400
 F 0 "C39" V 4000 6500 50  0000 C CNN
@@ -1312,7 +1312,7 @@ F 4 "50V/X7R/10%" V 4150 6450 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L12
+L MM-control-rescue:L_Core_Ferrite_Small-device L12
 U 1 1 5A985CA1
 P 4450 6100
 F 0 "L12" V 4500 5950 50  0000 C CNN
@@ -1323,7 +1323,7 @@ F 3 " BLM18KG121TN1D" H 4450 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L13
+L MM-control-rescue:L_Core_Ferrite_Small-device L13
 U 1 1 5A985CA7
 P 4450 6500
 F 0 "L13" V 4500 6350 50  0000 C CNN
@@ -1360,7 +1360,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 6500 4350 6500
 $Comp
-L conn:CONN_01X04 P9
+L MM-control-rescue:CONN_01X04-conn P9
 U 1 1 5A985CBE
 P 4900 6550
 F 0 "P9" H 4978 6591 50  0000 L CNN
@@ -1372,7 +1372,7 @@ F 3 "" H 4900 6550 50  0000 C CNN
 $EndComp
 Connection ~ 3900 6400
 $Comp
-L device:C_Small C40
+L MM-control-rescue:C_Small-device C40
 U 1 1 5A985CC5
 P 4050 6650
 F 0 "C40" V 4000 6750 50  0000 C CNN
@@ -1384,7 +1384,7 @@ F 4 "50V/X7R/10%" V 4150 6750 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C41
+L MM-control-rescue:C_Small-device C41
 U 1 1 5A985CCB
 P 4050 6850
 F 0 "C41" V 4000 6950 50  0000 C CNN
@@ -1396,7 +1396,7 @@ F 4 "50V/X7R/10%" V 4200 6900 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L14
+L MM-control-rescue:L_Core_Ferrite_Small-device L14
 U 1 1 5A985CD1
 P 4450 6550
 F 0 "L14" V 4500 6400 50  0000 C CNN
@@ -1407,7 +1407,7 @@ F 3 " BLM18KG121TN1D" H 4450 6550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L15
+L MM-control-rescue:L_Core_Ferrite_Small-device L15
 U 1 1 5A985CD7
 P 4450 6950
 F 0 "L15" V 4500 6800 50  0000 C CNN
@@ -1495,7 +1495,7 @@ D12
 Text GLabel 6800 1500 0    47   Input ~ 0
 DIR-3
 $Comp
-L ok1hra:TCM2130-LA U7
+L MM-control-rescue:TCM2130-LA-ok1hra U7
 U 1 1 5A987949
 P 7500 2500
 F 0 "U7" H 7500 4031 79  0000 C CNN
@@ -1549,7 +1549,7 @@ F 3 "" H 6450 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R34
+L MM-control-rescue:R-device R34
 U 1 1 5A987969
 P 6450 2800
 F 0 "R34" H 6520 2846 50  0000 L CNN
@@ -1608,7 +1608,7 @@ F 3 "" H 8500 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C44
+L MM-control-rescue:C_Small-device C44
 U 1 1 5A98798F
 P 8300 1500
 F 0 "C44" V 8250 1600 50  0000 C CNN
@@ -1630,7 +1630,7 @@ Wire Wire Line
 	8200 1300 8500 1300
 Connection ~ 8500 1300
 $Comp
-L device:C_Small C45
+L MM-control-rescue:C_Small-device C45
 U 1 1 5A9879A0
 P 8300 1800
 F 0 "C45" V 8250 1900 50  0000 C CNN
@@ -1648,7 +1648,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 1800 8400 1800
 $Comp
-L device:C_Small C50
+L MM-control-rescue:C_Small-device C50
 U 1 1 5A9879A9
 P 8700 1550
 F 0 "C50" V 8650 1650 50  0000 C CNN
@@ -1660,7 +1660,7 @@ F 4 "50V/X7R/10%" V 8800 1650 20  0000 C CNN "Req"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C51
+L MM-control-rescue:C_Small-device C51
 U 1 1 5A9879AF
 P 8900 1550
 F 0 "C51" V 8850 1650 50  0000 C CNN
@@ -1672,7 +1672,7 @@ F 4 "50V/X7R/10%" V 9000 1650 20  0000 C CNN "Req"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP_Small C53
+L MM-control-rescue:CP_Small-device C53
 U 1 1 5A9879B5
 P 9100 1550
 F 0 "C53" V 9050 1650 50  0000 L CNN
@@ -1737,7 +1737,7 @@ Wire Wire Line
 	8200 2100 8300 2100
 Connection ~ 8300 2100
 $Comp
-L device:C_Small C47
+L MM-control-rescue:C_Small-device C47
 U 1 1 5A9879DF
 P 8550 2250
 F 0 "C47" V 8500 2350 50  0000 C CNN
@@ -1749,7 +1749,7 @@ F 4 "50V/X7R/10%" V 8450 2350 20  0000 C CNN "Req"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C46
+L MM-control-rescue:C_Small-device C46
 U 1 1 5A9879E5
 P 8550 2100
 F 0 "C46" V 8500 2200 50  0000 C CNN
@@ -1761,7 +1761,7 @@ F 4 "50V/X7R/10%" V 8650 2200 20  0000 C CNN "Req"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C52
+L MM-control-rescue:C_Small-device C52
 U 1 1 5A9879EB
 P 8950 2150
 F 0 "C52" V 8900 2250 50  0000 C CNN
@@ -1810,7 +1810,7 @@ Wire Wire Line
 	8950 2050 8950 1950
 Connection ~ 8950 1950
 $Comp
-L device:R R37
+L MM-control-rescue:R-device R37
 U 1 1 5A987A06
 P 9150 2200
 F 0 "R37" H 9220 2246 50  0000 L CNN
@@ -1830,7 +1830,7 @@ Wire Wire Line
 	9150 2050 9150 1950
 Connection ~ 9150 1950
 $Comp
-L device:C_Small C54
+L MM-control-rescue:C_Small-device C54
 U 1 1 5A987A12
 P 9300 2400
 F 0 "C54" V 9250 2500 50  0000 C CNN
@@ -1855,7 +1855,7 @@ $EndComp
 Wire Wire Line
 	9450 2400 9400 2400
 $Comp
-L device:C_Small C48
+L MM-control-rescue:C_Small-device C48
 U 1 1 5A987A1F
 P 8650 2700
 F 0 "C48" V 8600 2800 50  0000 C CNN
@@ -1867,7 +1867,7 @@ F 4 "50V/X7R/10%" V 8700 2550 20  0000 C CNN "Req"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R35
+L MM-control-rescue:R-device R35
 U 1 1 5A987A25
 P 8650 2850
 F 0 "R35" V 8550 2950 50  0000 C CNN
@@ -1910,7 +1910,7 @@ Wire Wire Line
 	8400 2700 8400 2850
 Connection ~ 8400 2850
 $Comp
-L device:C_Small C49
+L MM-control-rescue:C_Small-device C49
 U 1 1 5A987A3F
 P 8650 3100
 F 0 "C49" V 8600 3200 50  0000 C CNN
@@ -1922,7 +1922,7 @@ F 4 "50V/X7R/10%" V 8700 2950 20  0000 C CNN "Req"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R36
+L MM-control-rescue:R-device R36
 U 1 1 5A987A45
 P 8650 3250
 F 0 "R36" V 8550 3350 50  0000 C CNN
@@ -1984,7 +1984,7 @@ Wire Wire Line
 	8200 3600 8300 3600
 Connection ~ 8300 3600
 $Comp
-L device:C_Small C55
+L MM-control-rescue:C_Small-device C55
 U 1 1 5A987A6A
 P 9450 2650
 F 0 "C55" V 9400 2750 50  0000 C CNN
@@ -1996,7 +1996,7 @@ F 4 "50V/X7R/10%" V 9550 2750 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C56
+L MM-control-rescue:C_Small-device C56
 U 1 1 5A987A70
 P 9450 2850
 F 0 "C56" V 9400 2950 50  0000 C CNN
@@ -2008,7 +2008,7 @@ F 4 "50V/X7R/10%" V 9550 2900 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L17
+L MM-control-rescue:L_Core_Ferrite_Small-device L17
 U 1 1 5A987A76
 P 9850 2550
 F 0 "L17" V 9900 2400 50  0000 C CNN
@@ -2019,7 +2019,7 @@ F 3 " BLM18KG121TN1D" H 9850 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L18
+L MM-control-rescue:L_Core_Ferrite_Small-device L18
 U 1 1 5A987A7C
 P 9850 2950
 F 0 "L18" V 9900 2800 50  0000 C CNN
@@ -2056,7 +2056,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 2950 9750 2950
 $Comp
-L conn:CONN_01X04 P10
+L MM-control-rescue:CONN_01X04-conn P10
 U 1 1 5A987A93
 P 10300 3000
 F 0 "P10" H 10378 3041 50  0000 L CNN
@@ -2068,7 +2068,7 @@ F 3 "" H 10300 3000 50  0000 C CNN
 $EndComp
 Connection ~ 9300 2850
 $Comp
-L device:C_Small C57
+L MM-control-rescue:C_Small-device C57
 U 1 1 5A987A9A
 P 9450 3100
 F 0 "C57" V 9400 3200 50  0000 C CNN
@@ -2080,7 +2080,7 @@ F 4 "50V/X7R/10%" V 9550 3150 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C58
+L MM-control-rescue:C_Small-device C58
 U 1 1 5A987AA0
 P 9450 3300
 F 0 "C58" V 9400 3400 50  0000 C CNN
@@ -2092,7 +2092,7 @@ F 4 "50V/X7R/10%" V 9600 3350 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L19
+L MM-control-rescue:L_Core_Ferrite_Small-device L19
 U 1 1 5A987AA6
 P 9850 3000
 F 0 "L19" V 9900 2850 50  0000 C CNN
@@ -2103,7 +2103,7 @@ F 3 " BLM18KG121TN1D" H 9850 3000 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L20
+L MM-control-rescue:L_Core_Ferrite_Small-device L20
 U 1 1 5A987AAC
 P 9850 3400
 F 0 "L20" V 9900 3250 50  0000 C CNN

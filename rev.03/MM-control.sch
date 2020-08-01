@@ -140,7 +140,7 @@ F 3 "" H 6550 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R13
+L MM-control-rescue:R-device R13
 U 1 1 5A95E512
 P 6550 1500
 F 0 "R13" V 6650 1500 50  0000 C CNN
@@ -152,7 +152,7 @@ F 4 "0,1W/1%" V 6700 1500 20  0000 C CNN "Req"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R12
+L MM-control-rescue:R-device R12
 U 1 1 5A95E9A4
 P 6250 1700
 F 0 "R12" V 6350 1700 50  0000 C CNN
@@ -164,7 +164,7 @@ F 4 "0,1W/1%" V 6400 1700 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R16
+L MM-control-rescue:R-device R16
 U 1 1 5A96DFD3
 P 5050 6800
 F 0 "R16" V 5150 6800 50  0000 C CNN
@@ -176,7 +176,7 @@ F 4 "0,1W/1%" V 5200 6800 20  0000 C CNN "Req"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R17
+L MM-control-rescue:R-device R17
 U 1 1 5A970442
 P 5050 7200
 F 0 "R17" V 5150 7200 50  0000 C CNN
@@ -233,7 +233,7 @@ F 3 "" H 5050 6550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X03 P4
+L MM-control-rescue:CONN_01X03-conn P4
 U 1 1 5A97899E
 P 7050 1800
 F 0 "P4" H 7128 1841 50  0000 L CNN
@@ -261,7 +261,7 @@ F 3 "" H 3450 5250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R6
+L MM-control-rescue:R-device R6
 U 1 1 5A997D75
 P 2350 3200
 F 0 "R6" V 2300 3350 50  0000 C CNN
@@ -273,7 +273,7 @@ F 4 "0,1W/1%" V 2325 3025 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L atmel:ATmega32U4 U4
+L MM-control-rescue:ATmega32U4-atmel U4
 U 1 1 5A96E1B5
 P 8800 4750
 F 0 "U4" H 8450 6550 50  0000 C CNN
@@ -284,7 +284,7 @@ F 3 "" H 10000 5850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R15
+L MM-control-rescue:R-device R15
 U 1 1 5A9722CC
 P 6600 4500
 F 0 "R15" V 6550 4300 50  0000 C CNN
@@ -296,7 +296,7 @@ F 4 "0,1W/1%" V 6525 4500 20  0000 C CNN "Req"
 	0    1    -1   0   
 $EndComp
 $Comp
-L device:C C4
+L MM-control-rescue:C-device C4
 U 1 1 5A973556
 P 1850 6850
 F 0 "C4" V 1550 6850 50  0000 C CNN
@@ -308,7 +308,7 @@ F 4 "50V/X7R/10%" V 1700 6850 20  0000 C CNN "Req"
 	0    1    -1   0   
 $EndComp
 $Comp
-L ok1hra:TACT-SW2 S1
+L MM-control-rescue:TACT-SW2-ok1hra S1
 U 1 1 5A97406A
 P 6600 4800
 F 0 "S1" V 6450 4650 50  0000 C CNN
@@ -330,7 +330,7 @@ F 3 "" H 7200 6200 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L6
+L MM-control-rescue:L_Core_Ferrite_Small-device L6
 U 1 1 5A97B539
 P 1850 1150
 F 0 "L6" V 1950 1150 50  0000 C CNN
@@ -341,7 +341,7 @@ F 3 " BLM18KG121TN1D" H 1850 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ok1hra:USB-micro J1
+L MM-control-rescue:USB-micro-ok1hra J1
 U 1 1 5A97D3C6
 P 1200 1500
 F 0 "J1" H 900 1150 60  0000 C CNN
@@ -352,7 +352,7 @@ F 3 "" H 1200 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R4
+L MM-control-rescue:R-device R4
 U 1 1 5A97DDBD
 P 1700 1400
 F 0 "R4" V 1600 1400 50  0000 C CNN
@@ -364,7 +364,7 @@ F 4 "0,1W/1%" V 1550 1400 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R5
+L MM-control-rescue:R-device R5
 U 1 1 5A97F0EA
 P 1700 1500
 F 0 "R5" V 1600 1500 50  0000 C CNN
@@ -396,7 +396,7 @@ Text Label 7550 4000 2    60   ~ 0
 D+
 NoConn ~ 1400 1600
 $Comp
-L device:L_Core_Ferrite_Small L7
+L MM-control-rescue:L_Core_Ferrite_Small-device L7
 U 1 1 5A986A87
 P 6900 3350
 F 0 "L7" V 7000 3350 50  0000 C CNN
@@ -418,7 +418,7 @@ F 3 "" H 7050 3100 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C C9
+L MM-control-rescue:C-device C9
 U 1 1 5A988287
 P 6900 3750
 F 0 "C9" H 6785 3704 50  0000 R CNN
@@ -430,7 +430,7 @@ F 4 "50V/X7R/10%" H 6700 3850 20  0000 C CNN "Req"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C6
+L MM-control-rescue:C-device C6
 U 1 1 5A988D06
 P 6650 3700
 F 0 "C6" H 6536 3654 50  0000 R CNN
@@ -442,7 +442,7 @@ F 4 "6,3V/X5R/10%" H 6500 3800 20  0000 C CNN "Req"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:C C2
+L MM-control-rescue:C-device C2
 U 1 1 5A98A379
 P 2350 1400
 F 0 "C2" H 2235 1354 50  0000 R CNN
@@ -454,7 +454,7 @@ F 4 "50V/X7R/10%" H 2150 1500 20  0000 C CNN "Req"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:C C3
+L MM-control-rescue:C-device C3
 U 1 1 5A98A551
 P 2600 1400
 F 0 "C3" H 2485 1354 50  0000 R CNN
@@ -492,7 +492,7 @@ VBUS
 Text Label 7550 3900 2    60   ~ 0
 VBUS
 $Comp
-L device:L_Core_Ferrite_Small L1
+L MM-control-rescue:L_Core_Ferrite_Small-device L1
 U 1 1 5A98BEB8
 P 1300 2050
 F 0 "L1" V 1400 2050 50  0000 C CNN
@@ -505,7 +505,7 @@ $EndComp
 Text Label 7550 4300 2    60   ~ 0
 UGND
 $Comp
-L device:C C10
+L MM-control-rescue:C-device C10
 U 1 1 5A98D9C2
 P 7200 4350
 F 0 "C10" H 7086 4304 50  0000 R CNN
@@ -549,7 +549,7 @@ AGND
 Text Label 6050 4600 2    60   ~ 0
 RESET
 $Comp
-L device:R R18
+L MM-control-rescue:R-device R18
 U 1 1 5A991D0D
 P 6750 5100
 F 0 "R18" V 6650 5100 50  0000 C CNN
@@ -575,7 +575,7 @@ A5
 Text GLabel 10000 5400 2    47   Input ~ 0
 D7
 $Comp
-L device:R R21
+L MM-control-rescue:R-device R21
 U 1 1 5A99896A
 P 10400 5300
 F 0 "R21" V 10300 5300 50  0000 C CNN
@@ -604,7 +604,7 @@ D6
 Text GLabel 10000 5000 2    47   Input ~ 0
 D12
 $Comp
-L device:LED_ALT D9
+L MM-control-rescue:LED_ALT-device D9
 U 1 1 5A99BCB3
 P 10400 4900
 F 0 "D9" H 10400 5000 50  0000 C CNN
@@ -626,7 +626,7 @@ F 3 "" H 10850 4900 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L device:R R24
+L MM-control-rescue:R-device R24
 U 1 1 5A99C698
 P 10700 4900
 F 0 "R24" V 10600 4900 50  0000 C CNN
@@ -673,7 +673,7 @@ D9
 Text GLabel 10000 3600 2    47   Input ~ 0
 D8
 $Comp
-L device:LED_ALT D8
+L MM-control-rescue:LED_ALT-device D8
 U 1 1 5A9A4214
 P 10400 3200
 F 0 "D8" H 10400 3300 50  0000 C CNN
@@ -695,7 +695,7 @@ F 3 "" H 10850 3200 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L device:R R23
+L MM-control-rescue:R-device R23
 U 1 1 5A9A4220
 P 10700 3200
 F 0 "R23" V 10600 3200 50  0000 C CNN
@@ -707,7 +707,7 @@ F 4 "0,1W/1%" V 10775 3200 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L2
+L MM-control-rescue:L_Core_Ferrite_Small-device L2
 U 1 1 5A9A69E2
 P 1550 6250
 F 0 "L2" V 1650 6250 50  0000 C CNN
@@ -718,7 +718,7 @@ F 3 " BLM18KG121TN1D" H 1550 6250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:Polyfuse_Small F1
+L MM-control-rescue:Polyfuse_Small-device F1
 U 1 1 5A9A7148
 P 2350 6250
 F 0 "F1" V 2250 6250 50  0000 C CNN
@@ -729,7 +729,7 @@ F 3 "" H 2350 6250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C1
+L MM-control-rescue:C-device C1
 U 1 1 5A9A95F2
 P 1300 6050
 F 0 "C1" H 1200 5950 50  0000 R CNN
@@ -763,7 +763,7 @@ F 3 "" H 700 6200 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R R1
+L MM-control-rescue:R-device R1
 U 1 1 5A96EF76
 P 2200 6550
 F 0 "R1" V 2150 6700 50  0000 C CNN
@@ -775,7 +775,7 @@ F 4 "0,1W/1%" V 2150 6850 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L5
+L MM-control-rescue:L_Core_Ferrite_Small-device L5
 U 1 1 5A96F6F3
 P 2250 6850
 F 0 "L5" V 2300 6700 50  0000 C CNN
@@ -786,7 +786,7 @@ F 3 " BLM18KG121TN1D" H 2250 6850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R2
+L MM-control-rescue:R-device R2
 U 1 1 5A970751
 P 2200 6650
 F 0 "R2" V 2150 6800 50  0000 C CNN
@@ -802,7 +802,7 @@ D0(RXD)
 Text GLabel 2050 6650 0    47   Input ~ 0
 D1(TXD)
 $Comp
-L device:Polyfuse_Small F2
+L MM-control-rescue:Polyfuse_Small-device F2
 U 1 1 5A973FCF
 P 4550 7250
 F 0 "F2" V 4450 7250 50  0000 C CNN
@@ -845,7 +845,7 @@ MOSI
 Text GLabel 10050 2150 0    47   Input ~ 0
 MISO
 $Comp
-L device:CP_Small C59
+L MM-control-rescue:CP_Small-device C59
 U 1 1 5A993948
 P 900 6050
 F 0 "C59" H 812 6004 50  0000 R CNN
@@ -879,7 +879,7 @@ F 3 "" H 3600 7350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Crystal_GND24 Y1
+L MM-control-rescue:Crystal_GND24-device Y1
 U 1 1 5A99A94E
 P 6700 5500
 F 0 "Y1" H 6750 5700 50  0000 L CNN
@@ -890,7 +890,7 @@ F 3 "" H 6700 5500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ok1hra:74HC595 U2
+L MM-control-rescue:74HC595-ok1hra U2
 U 1 1 5A99F4A5
 P 2950 4800
 F 0 "U2" H 2950 5437 60  0000 C CNN
@@ -901,7 +901,7 @@ F 3 "" H 2950 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R7
+L MM-control-rescue:R-device R7
 U 1 1 5A9A0038
 P 2350 3300
 F 0 "R7" V 2300 3450 50  0000 C CNN
@@ -913,7 +913,7 @@ F 4 "0,1W/1%" V 2325 3125 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R8
+L MM-control-rescue:R-device R8
 U 1 1 5A9A0593
 P 2350 3400
 F 0 "R8" V 2300 3550 50  0000 C CNN
@@ -925,7 +925,7 @@ F 4 "0,1W/1%" V 2325 3225 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R9
+L MM-control-rescue:R-device R9
 U 1 1 5A9A063B
 P 2350 3500
 F 0 "R9" V 2300 3650 50  0000 C CNN
@@ -937,7 +937,7 @@ F 4 "0,1W/1%" V 2325 3325 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R10
+L MM-control-rescue:R-device R10
 U 1 1 5A9A06E3
 P 2350 3600
 F 0 "R10" V 2300 3800 50  0000 C CNN
@@ -949,7 +949,7 @@ F 4 "0,1W/1%" V 2325 3425 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R11
+L MM-control-rescue:R-device R11
 U 1 1 5A9A0789
 P 2350 3700
 F 0 "R11" V 2300 3900 50  0000 C CNN
@@ -961,7 +961,7 @@ F 4 "0,1W/1%" V 2325 3525 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R22
+L MM-control-rescue:R-device R22
 U 1 1 5A9A1B23
 P 2350 3800
 F 0 "R22" V 2300 4000 50  0000 C CNN
@@ -973,7 +973,7 @@ F 4 "0,1W/1%" V 2325 3625 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R25
+L MM-control-rescue:R-device R25
 U 1 1 5A9A1BC1
 P 2350 3900
 F 0 "R25" V 2300 4100 50  0000 C CNN
@@ -987,7 +987,7 @@ $EndComp
 Text GLabel 4100 4850 2    47   Input ~ 0
 D13
 $Comp
-L device:C C60
+L MM-control-rescue:C-device C60
 U 1 1 5A9A59DB
 P 3850 5100
 F 0 "C60" V 3600 5100 50  0000 C CNN
@@ -1012,7 +1012,7 @@ $EndComp
 Text Notes 4300 4900 0    60   ~ 0
 DATA\nLATCH\nCLOCK
 $Comp
-L conn:CONN_01X05 P6
+L MM-control-rescue:CONN_01X05-conn P6
 U 1 1 5A9A7386
 P 4300 3600
 F 0 "P6" H 4377 3641 50  0000 L CNN
@@ -1045,7 +1045,7 @@ F 3 "" H 4100 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L atmel:ATmega32U4 U8
+L MM-control-rescue:ATmega32U4-atmel U8
 U 1 1 5A9AAC4B
 P 8800 4750
 F 0 "U8" H 9050 6550 50  0000 C CNN
@@ -1056,7 +1056,7 @@ F 3 "" H 10000 5850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ok1hra:74HC595 U9
+L MM-control-rescue:74HC595-ok1hra U9
 U 1 1 5A986D5A
 P 2950 3550
 F 0 "U9" H 2950 4187 60  0000 C CNN
@@ -1123,7 +1123,7 @@ MISO
 Text Notes 3150 6750 2    60   ~ 0
 GND
 $Comp
-L conn:CONN_01X05 P1
+L MM-control-rescue:CONN_01X05-conn P1
 U 1 1 5A995140
 P 3350 6650
 F 0 "P1" H 3427 6691 50  0000 L CNN
@@ -1135,7 +1135,7 @@ F 3 "" H 3350 6650 50  0000 C CNN
 $EndComp
 NoConn ~ 3150 6750
 $Comp
-L conn:CONN_02X02 P2
+L MM-control-rescue:CONN_02X02-conn P2
 U 1 1 5A9963EA
 P 3350 7300
 F 0 "P2" H 3350 7565 50  0000 C CNN
@@ -1179,7 +1179,7 @@ F 3 "" H 8650 1550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R38
+L MM-control-rescue:R-device R38
 U 1 1 5A9DDE88
 P 3900 1300
 F 0 "R38" V 3800 1300 50  0000 C CNN
@@ -1202,7 +1202,7 @@ F 3 "" H 3750 1300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ok1hra:TACT-SW2 S2
+L MM-control-rescue:TACT-SW2-ok1hra S2
 U 1 1 5A9DE6DE
 P 4100 1650
 F 0 "S2" V 3950 1500 50  0000 C CNN
@@ -1213,7 +1213,7 @@ F 3 "" H 4100 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ok1hra:TACT-SW2 S3
+L MM-control-rescue:TACT-SW2-ok1hra S3
 U 1 1 5A9DEB8B
 P 4600 1650
 F 0 "S3" V 4450 1500 50  0000 C CNN
@@ -1224,7 +1224,7 @@ F 3 "" H 4600 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ok1hra:TACT-SW2 S4
+L MM-control-rescue:TACT-SW2-ok1hra S4
 U 1 1 5A9DEC51
 P 5100 1650
 F 0 "S4" V 4950 1500 50  0000 C CNN
@@ -1235,7 +1235,7 @@ F 3 "" H 5100 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R39
+L MM-control-rescue:R-device R39
 U 1 1 5A9DED1B
 P 4400 1300
 F 0 "R39" V 4300 1300 50  0000 C CNN
@@ -1247,7 +1247,7 @@ F 4 "0,1W/1%" V 4475 1300 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R40
+L MM-control-rescue:R-device R40
 U 1 1 5A9DEF3A
 P 4900 1300
 F 0 "R40" V 4800 1300 50  0000 C CNN
@@ -1270,7 +1270,7 @@ F 3 "" H 4100 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X06 P7
+L MM-control-rescue:CONN_01X06-conn P7
 U 1 1 5A9D121D
 P 8850 1700
 F 0 "P7" H 8850 2050 50  0000 C CNN
@@ -1281,7 +1281,7 @@ F 3 "" H 8850 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R44
+L MM-control-rescue:R-device R44
 U 1 1 5A9D4B57
 P 8300 1300
 F 0 "R44" V 8250 1500 50  0000 C CNN
@@ -1293,7 +1293,7 @@ F 4 "0,1W/5%" V 8300 1300 20  0001 C CNN "Req"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R43
+L MM-control-rescue:R-device R43
 U 1 1 5A9D51BC
 P 8200 1300
 F 0 "R43" V 8150 1500 50  0000 C CNN
@@ -1305,7 +1305,7 @@ F 4 "0,1W/5%" V 8275 1300 20  0000 C CNN "Req"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R42
+L MM-control-rescue:R-device R42
 U 1 1 5A9D54BB
 P 8050 1300
 F 0 "R42" V 8000 1500 50  0000 C CNN
@@ -1317,7 +1317,7 @@ F 4 "0,1W/5%" V 7975 1300 20  0001 C CNN "Req"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R41
+L MM-control-rescue:R-device R41
 U 1 1 5A9D55C9
 P 7950 1300
 F 0 "R41" V 7900 1500 50  0000 C CNN
@@ -1331,7 +1331,7 @@ $EndComp
 Text Notes 9100 1900 1    60   ~ 0
 I2C/SPI
 $Comp
-L device:LED_Small_ALT D14
+L MM-control-rescue:LED_Small_ALT-device D14
 U 1 1 5A9D3F96
 P 1900 3200
 F 0 "D14" H 2000 3250 50  0000 C CNN
@@ -1342,7 +1342,7 @@ F 3 "" V 1900 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small_ALT D15
+L MM-control-rescue:LED_Small_ALT-device D15
 U 1 1 5A9D4555
 P 1900 3300
 F 0 "D15" H 2000 3350 50  0000 C CNN
@@ -1353,7 +1353,7 @@ F 3 "" V 1900 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small_ALT D16
+L MM-control-rescue:LED_Small_ALT-device D16
 U 1 1 5A9D4EDE
 P 1900 3400
 F 0 "D16" H 2000 3450 50  0000 C CNN
@@ -1364,7 +1364,7 @@ F 3 "" V 1900 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small_ALT D17
+L MM-control-rescue:LED_Small_ALT-device D17
 U 1 1 5A9D4EE4
 P 1900 3500
 F 0 "D17" H 2000 3550 50  0000 C CNN
@@ -1375,7 +1375,7 @@ F 3 "" V 1900 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small_ALT D18
+L MM-control-rescue:LED_Small_ALT-device D18
 U 1 1 5A9D50B2
 P 1900 3600
 F 0 "D18" H 2000 3650 50  0000 C CNN
@@ -1386,7 +1386,7 @@ F 3 "" V 1900 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small_ALT D19
+L MM-control-rescue:LED_Small_ALT-device D19
 U 1 1 5A9D50B8
 P 1900 3700
 F 0 "D19" H 2000 3750 50  0000 C CNN
@@ -1397,7 +1397,7 @@ F 3 "" V 1900 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small_ALT D20
+L MM-control-rescue:LED_Small_ALT-device D20
 U 1 1 5A9D50BE
 P 1900 3800
 F 0 "D20" H 2000 3850 50  0000 C CNN
@@ -1408,7 +1408,7 @@ F 3 "" V 1900 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small_ALT D21
+L MM-control-rescue:LED_Small_ALT-device D21
 U 1 1 5A9D50C4
 P 1900 3900
 F 0 "D21" H 2000 3950 50  0000 C CNN
@@ -1419,7 +1419,7 @@ F 3 "" V 1900 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R45
+L MM-control-rescue:R-device R45
 U 1 1 5A9D523A
 P 2350 5050
 F 0 "R45" V 2300 5250 50  0000 C CNN
@@ -1431,7 +1431,7 @@ F 4 "0,1W/1%" V 2325 4875 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R46
+L MM-control-rescue:R-device R46
 U 1 1 5A9D56E2
 P 2350 5150
 F 0 "R46" V 2300 5350 50  0000 C CNN
@@ -1443,7 +1443,7 @@ F 4 "0,1W/1%" V 2325 4975 20  0000 C CNN "Req"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED_Small_ALT D22
+L MM-control-rescue:LED_Small_ALT-device D22
 U 1 1 5A9D5B20
 P 1900 5050
 F 0 "D22" H 2000 5100 50  0000 C CNN
@@ -1454,7 +1454,7 @@ F 3 "" V 1900 5050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small_ALT D23
+L MM-control-rescue:LED_Small_ALT-device D23
 U 1 1 5A9D5B26
 P 1900 5150
 F 0 "D23" H 2000 5200 50  0000 C CNN
@@ -1487,7 +1487,7 @@ F 3 "" H 1700 5200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L22
+L MM-control-rescue:L_Core_Ferrite_Small-device L22
 U 1 1 5A9DBA28
 P 7250 3100
 F 0 "L22" V 7350 3100 50  0000 C CNN
@@ -1498,7 +1498,7 @@ F 3 " BLM18KG121TN1D" H 7250 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L21
+L MM-control-rescue:L_Core_Ferrite_Small-device L21
 U 1 1 5A9DC443
 P 3650 3050
 F 0 "L21" V 3750 3050 50  0000 C CNN
@@ -1520,7 +1520,7 @@ F 3 "" H 6000 7450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X01 P12
+L MM-control-rescue:CONN_01X01-conn P12
 U 1 1 5A9EAA38
 P 6300 7300
 F 0 "P12" H 6378 7341 50  0000 L CNN
@@ -1531,7 +1531,7 @@ F 3 "" H 6300 7300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X01 P11
+L MM-control-rescue:CONN_01X01-conn P11
 U 1 1 5A9EAC22
 P 6300 7050
 F 0 "P11" H 6378 7091 50  0000 L CNN
@@ -1542,7 +1542,7 @@ F 3 "" H 6300 7050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X01 P3
+L MM-control-rescue:CONN_01X01-conn P3
 U 1 1 5A9EAD00
 P 6300 6800
 F 0 "P3" H 6378 6841 50  0000 L CNN
@@ -1553,7 +1553,7 @@ F 3 "" H 6300 6800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_ALT D7
+L MM-control-rescue:D_ALT-device D7
 U 1 1 5AAF9500
 P 10400 1550
 F 0 "D7" H 10400 1650 50  0000 C CNN
@@ -1564,7 +1564,7 @@ F 3 "" H 10400 1550 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:D_ALT D6
+L MM-control-rescue:D_ALT-device D6
 U 1 1 5AB01A69
 P 6600 4300
 F 0 "D6" H 6600 4400 50  0000 C CNN
@@ -1575,7 +1575,7 @@ F 3 "" H 6600 4300 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L device:L_Core_Ferrite_Small L3
+L MM-control-rescue:L_Core_Ferrite_Small-device L3
 U 1 1 5AB078BC
 P 8450 1950
 F 0 "L3" V 8500 1800 50  0000 C CNN
@@ -1586,7 +1586,7 @@ F 3 " BLM18KG121TN1D" H 8450 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:D_ALT D1
+L MM-control-rescue:D_ALT-device D1
 U 1 1 5AB25AEF
 P 1900 6250
 F 0 "D1" H 1900 6350 50  0000 C CNN
